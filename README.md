@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-html-sanitizer/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-html-sanitizer/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.HtmlSanitizer.svg)](https://www.nuget.org/packages/Philiprehberger.HtmlSanitizer)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-html-sanitizer)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Whitelist-based HTML sanitizer for XSS prevention with configurable allowed tags, attributes, and URL schemes.
 
