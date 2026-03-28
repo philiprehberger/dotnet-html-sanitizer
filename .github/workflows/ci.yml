@@ -17,6 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
       - run: dotnet restore src/Philiprehberger.HtmlSanitizer.csproj
       - run: dotnet build src/Philiprehberger.HtmlSanitizer.csproj --configuration Release --no-restore
+      - run: dotnet test tests/Philiprehberger.HtmlSanitizer.Tests/Philiprehberger.HtmlSanitizer.Tests.csproj --configuration Release --no-restore
 
   publish:
     needs: build

@@ -37,6 +37,27 @@ public sealed class SanitizerOptions
     };
 
     /// <summary>
+    /// Gets or sets the set of CSS class names allowed in the <c>class</c> attribute.
+    /// When non-empty, only class values present in this set are retained; others are removed.
+    /// When empty, all class values are passed through (if <c>class</c> is in <see cref="AllowedAttributes"/>).
+    /// </summary>
+    public HashSet<string> AllowedClasses { get; set; } = new(StringComparer.OrdinalIgnoreCase);
+
+    /// <summary>
+    /// Gets or sets the set of allowed <c>data-*</c> attribute names.
+    /// When non-empty, only <c>data-*</c> attributes whose full name (e.g. <c>data-id</c>) is in this set are retained.
+    /// When empty, no <c>data-*</c> attributes are allowed unless they are explicitly listed in <see cref="AllowedAttributes"/>.
+    /// </summary>
+    public HashSet<string> AllowedDataAttributes { get; set; } = new(StringComparer.OrdinalIgnoreCase);
+
+    /// <summary>
+    /// Gets or sets a value indicating whether external link safety attributes are automatically
+    /// added to all <c>&lt;a&gt;</c> tags. When <see langword="true"/>, <c>target="_blank"</c> and
+    /// <c>rel="noopener noreferrer"</c> are appended to every anchor tag in the output.
+    /// </summary>
+    public bool ForceExternalLinkSafety { get; set; }
+
+    /// <summary>
     /// Gets the default sanitizer options.
     /// </summary>
     public static SanitizerOptions Default => new();
