@@ -2,12 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-html-sanitizer/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-html-sanitizer/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.HtmlSanitizer.svg)](https://www.nuget.org/packages/Philiprehberger.HtmlSanitizer)
-[![GitHub release](https://img.shields.io/github/v/release/philiprehberger/dotnet-html-sanitizer)](https://github.com/philiprehberger/dotnet-html-sanitizer/releases)
 [![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-html-sanitizer)](https://github.com/philiprehberger/dotnet-html-sanitizer/commits/main)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-html-sanitizer)](LICENSE)
-[![Bug Reports](https://img.shields.io/github/issues/philiprehberger/dotnet-html-sanitizer/bug)](https://github.com/philiprehberger/dotnet-html-sanitizer/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Feature Requests](https://img.shields.io/github/issues/philiprehberger/dotnet-html-sanitizer/enhancement)](https://github.com/philiprehberger/dotnet-html-sanitizer/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Whitelist-based HTML sanitizer for XSS prevention with configurable allowed tags, attributes, and URL schemes.
 
@@ -154,10 +149,21 @@ dotnet build src/Philiprehberger.HtmlSanitizer.csproj --configuration Release
 
 ## Support
 
-If you find this package useful, consider giving it a star on GitHub — it helps motivate continued maintenance and development.
+If you find this project useful:
 
-[![LinkedIn](https://img.shields.io/badge/Philip%20Rehberger-LinkedIn-0A66C2?logo=linkedin)](https://www.linkedin.com/in/philiprehberger)
-[![More packages](https://img.shields.io/badge/more-open%20source%20packages-blue)](https://philiprehberger.com/open-source-packages)
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-html-sanitizer)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-html-sanitizer/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-html-sanitizer/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
 
 ## License
 
